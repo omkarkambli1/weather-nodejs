@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Omkar",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.5.0",
+    "climate-data-crawler": "^2.1.8",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "highcharts": "^9.1.2",
+    "highcharts-export-server": "^2.1.0",
+    "mqtt": "^4.2.8",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "require": "^2.4.20"
+  }
+}
